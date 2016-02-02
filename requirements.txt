@@ -7,3 +7,4 @@ pyyaml
 django-sitetree
 djangoajax
 django-widget-tweaks
+django-autoslug
