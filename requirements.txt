@@ -6,5 +6,4 @@ celery[redis]
 pyyaml
 django-sitetree
 djangoajax
-django-widget-tweaks
-django-autoslug
+django-debug-toolbar
