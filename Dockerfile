@@ -23,3 +23,6 @@ ENV LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/usr/local/lib/
 
 ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
+
+ENV GIT_USER="git" GIT_PASSWORD="insecure"
+RUN useradd -m -p $(openssl passwd -1 ${GIT_PASSWORD}) ${GIT_USER}
