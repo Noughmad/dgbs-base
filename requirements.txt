@@ -8,3 +8,4 @@ django-sitetree
 djangoajax
 django-debug-toolbar
 django-autoslug
+django-permission
