@@ -9,3 +9,4 @@ djangoajax
 django-debug-toolbar
 django-autoslug
 django-permission
+django-endless-pagination
