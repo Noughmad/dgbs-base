@@ -10,3 +10,4 @@ django-debug-toolbar
 django-autoslug
 django-permission
 django-el-pagination
+sshpubkeys
